@@ -13,10 +13,10 @@ function App() {
     <Router basename="/portfolio">
         <Links />
         <Nav />
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/blog" component={Blog} />
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/" component={Homepage} />
+        <Route path="/about" component={About} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contact" component={Contact} />
     </Router>
   );
 }
