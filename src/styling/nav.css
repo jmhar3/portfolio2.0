@@ -1,0 +1,23 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 0;   
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#menu img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+#menu a {
+    padding-left: 15px;
+  }

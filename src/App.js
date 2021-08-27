@@ -5,7 +5,7 @@ import About from './containers/about';
 import Blog from './containers/blog';
 import Contact from './containers/contact'
 import './App.css';
-import { Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
