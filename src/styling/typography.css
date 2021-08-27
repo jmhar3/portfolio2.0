@@ -53,3 +53,10 @@ p, li, a {
     font-size: 1rem;
     padding: 0;
 }
+
+#menu a {
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    color: #cf0311;
+    text-decoration: none;
+    font-size: 1rem;
+}

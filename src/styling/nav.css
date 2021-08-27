@@ -26,3 +26,16 @@ header {
 #menu a {
     padding-left: 15px;
   }
+
+  #menu img {
+    border: 2px dotted transparent;
+}
+
+#menu img:hover {
+    border: 2px dotted #1975d2;
+}
+
+#menu a:hover {
+    color: #ffebee;
+    border-bottom: 2px dotted #1975d2;
+}

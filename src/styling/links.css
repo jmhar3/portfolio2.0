@@ -13,10 +13,28 @@
     margin-bottom: 3vh;
 }
 
-#links a {
-    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    color: #cf0311;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 0;
+.container {
+    border: 2px dotted transparent;   
+}
+
+.container:hover {
+    border: 2px dotted #1975d2;   
+}
+
+#links img {
+    width: 6.9vh;
+    height: 6.9vh;
+    border: none;
+}
+
+#links img:hover {
+    width: 6.9vh;
+    height: 6.9vh;
+    border: none;
+}
+
+#links p {
+    margin: 0;
+    font-size: 3vh;
+    padding-top: .3em;
 }

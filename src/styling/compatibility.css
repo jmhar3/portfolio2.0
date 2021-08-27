@@ -1,0 +1,91 @@
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ffebee;
+        color: #cf0311;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(27, 27, 27);
+        color: #f8bbd0;
+    }
+    
+    h4, input, textarea, p, ::placeholder {
+        color: #f8bbd0;
+    }
+    header {
+        border-bottom: 3px solid #f8bbd0;
+        background: #f8bbd0;
+    }
+    #menu a {
+        color: #cf0311;
+    }
+    #menu a:hover, #email h4:hover{
+        border-bottom: 2px dotted #90caf9;
+    }
+    #email h4, img, .container, a img, .container, #email, #contact h4{
+        border: 2px dotted transparent;
+    }   
+    #menu img:hover, .container:hover, a img:hover {
+        border: 2px dotted #90caf9;
+    }
+    input, textarea {
+        border: 3px solid #f8bbd0;
+        color: #ffebee;
+        background: rgb(27, 27, 27);
+    }
+    input:hover, textarea:hover{
+        border-color: #90caf9;
+    }
+    button#submit { 
+        border: 3px solid #f8bbd0;
+        color: #f8bbd0;
+        background: rgb(27, 27, 27);
+    }
+    button#submit:hover {  
+        border: 3px solid #90caf9;
+        color: #1975d2;
+        background: #90caf9;
+    }
+    .websiteFrame {
+        background-color: #f8bbd0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 3em;
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-bottom: .3em;
+    }
+    #links {
+        top: 5em;
+    }
+    #links img {
+        width: 1.8em;
+        height: 1.8em;
+    }    
+    #links img:hover {
+        width: 1.8em;
+        height: 1.8em;
+    }    
+    #links p {
+        font-size: .8em;
+    }
+    #menu ul {
+        margin: 0; 
+    }
+    header {
+        padding-left: 9px;
+    }
+    #work a img {
+        width: 100%;
+    }
+
+    button#submit { 
+        width: 45%;
+    }
+}

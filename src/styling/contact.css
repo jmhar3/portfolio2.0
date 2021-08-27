@@ -1,0 +1,61 @@
+#email h4 {
+    border-bottom: 2px dotted transparent;
+}
+
+#email h4:hover {
+    border-bottom: 2px dotted #1975d2;
+}
+
+input, textarea {
+    width: 90%;
+    padding: .3em;
+    border: 3px solid #cf0311;
+    color: #1975d2;
+}
+
+ input:hover, textarea:hover {
+    cursor: url('../images/text_cursor.png'), auto;
+    border: 3px solid #ff80aa;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 3px solid #1975d2;
+    color: #cf0311;
+}
+
+button#submit { 
+    width: 30%;
+    border: 3px solid #cf0311;
+    color: #cf0311;
+    background: #ffebee;
+    padding: .3em;
+}
+
+button#submit:hover {  
+    border: 3px solid #1975d2;
+    color: #e3f2fd;
+    background: #1975d2;
+    padding: .3em;    
+    cursor: url('../images/text_cursor.png'), auto;
+}
+
+#contact h3 {
+    margin-bottom: 0;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#email a {
+    float: left;
+    text-decoration: none;
+}
+
+.contact_form {
+    padding-bottom: 1em;
+}
