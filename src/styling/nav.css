@@ -2,6 +2,11 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    box-sizing: border-box;
+    border-bottom: 5px solid #cf0311;
+    padding: 12px;
+    background: #f8bbd0;
+    padding-left: 21px;
 }
 
 #menu {

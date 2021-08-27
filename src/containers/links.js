@@ -1,5 +1,6 @@
 import notebook from '../images/notebook.png';
 import mail from '../images/email.png';
+import computer from '../images/computer.png'
 import '../styling/links.css';
 
 const Links = () => {
@@ -7,7 +8,7 @@ const Links = () => {
     return (
         <div id="links">
             <div class="container">
-                <a href="https://github.com/jmhar3" target="_blank"><img src="./images/computer.png" /></a>
+                <a href="https://github.com/jmhar3" target="_blank"><img src={computer} /></a>
                 <a href="https://github.com/jmhar3" target="_blank">
                     <p class="hover_icon">GitHub</p>
                 </a>

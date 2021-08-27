@@ -1,12 +1,11 @@
-/* FONTS */
 @font-face {
-    font-family: 'MS_Sans_Serif_8pt_bold';
-    src: url(./ms_sans_serif_8pt_bold-webfont.woff);
+    font-family: 'MS_Sans_Serif_8pt';
+    src: url(../fonts//ms_sans_serif_8pt-webfont.woff);
 }
 
 @font-face {
-    font-family: 'MS_Sans_Serif_8pt';
-    src: url(./ms_sans_serif_8pt-webfont.woff);
+    font-family: 'MS_Sans_Serif_8pt_bold';
+    src: url(../fonts/ms_sans_serif_8pt_bold-webfont.woff);
 }
 
 h1 {
@@ -45,4 +44,12 @@ p, li, a {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1rem;
+}
+
+#links a {
+    font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
+    color: #cf0311;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0;
 }

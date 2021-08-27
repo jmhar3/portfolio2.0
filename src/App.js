@@ -6,7 +6,7 @@ import Blog from './containers/blog';
 import Contact from './containers/contact'
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './typography/typography.css'
+import './styling/typography.css'
 
 function App() {
   return (
