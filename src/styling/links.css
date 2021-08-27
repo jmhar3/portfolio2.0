@@ -1,0 +1,14 @@
+#links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 1em;
+    top: 15vh;
+}
+
+.container {
+    overflow: auto;
+    text-align: center;
+    padding: .1vh;
+    margin-bottom: 3vh;
+}

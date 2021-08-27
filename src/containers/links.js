@@ -1,5 +1,6 @@
-import notebook from '../images/notebook.png'
-import mail from '../images/email.png'
+import notebook from '../images/notebook.png';
+import mail from '../images/email.png';
+import '../styling/links.css';
 
 const Links = () => {
 
