@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import Links from './containers/links';
+import Nav from './containers/nav';
+import Homepage from './containers/homepage';
+import About from './containers/about';
+import Blog from './containers/blog';
+import Contact from './containers/contact'
 import './App.css';
+import { Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/portfolio">
+        <Links />
+        <Nav />
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/contact" component={Contact} />
+    </Router>
   );
 }
 
