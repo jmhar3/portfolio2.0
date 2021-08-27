@@ -10,6 +10,25 @@ main {
     padding-right: 12.5%;
 }
 
+.window {
+    position: absolute;
+    z-index: 9;
+    border: #cf0311 3px solid;
+    width: 60%;
+    height: 80%;
+}
+
+.window-header {
+    cursor: move;
+    z-index: 10;
+    border-bottom: #cf0311 3px solid;
+    padding-left: 1.8vw;
+}
+
+.window-body {
+    padding: 1.8vw;
+}
+
 .websiteFrame {
     position: fixed;
     z-index: 990;
