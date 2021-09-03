@@ -1,21 +1,41 @@
-body { 
+html {
     cursor: url('../images/cursor.png'), auto;
+}
+
+a, button {
+    cursor: url('../images/hover cursor.png'), auto;
+}
+
+input {
+    cursor: url('../images/text_cursor.png'), auto;
+}
+
+body { 
     margin: 0;
-    padding-top: 24px;
 }
 
 main {
     padding: 3.5em;
     padding-left: 10%;
-    padding-right: 12.5%;
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    padding-right: 18px;
 }
 
 .window {
-    position: absolute;
     z-index: 9;
     border: #cf0311 3px solid;
-    width: 60%;
-    height: 80%;
+    border-radius: 3px;
+    width: 63%;
+    height: 432px;
+    margin-top: 39px;
+    margin-left: 3.9vw;
+    position: absolute
 }
 
 .window-header {
@@ -23,58 +43,75 @@ main {
     z-index: 10;
     border-bottom: #cf0311 3px solid;
     padding-left: 1.8vw;
+    padding-top: .9vw;
+    padding-bottom: .9vw;
+    display: flex;
+    align-items: center;
+    background-color: #facadb;
+}
+
+.window-header img {
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.window-title {
+    padding-bottom: 0;
 }
 
 .window-body {
+    height: 336px;
     padding: 1.8vw;
+    overflow-y: scroll;
+    background-color: #fff2f4;
 }
 
 .websiteFrame {
     position: fixed;
     z-index: 990;
     background-color: #cf0311;
- }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff2f4; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #cf0311; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cf0311d8; 
+  }
  
- #websiteFrameTop {
+#websiteFrameTop {
     top: 0;
     left: 0;
     width: 100%;
     height: 5px;
- }
+}
  
- #websiteFrameRight {
+#websiteFrameRight {
     top: 0;
     bottom: 0;
     right: 0;
     width: 5px;
- }
+}
  
- #websiteFrameBottom {
+#websiteFrameBottom {
     bottom: 0;
     left: 0;
     width: 100%;
     height: 5px;
- }
+}
  
- #websiteFrameLeft {
+#websiteFrameLeft {
     top: 0;
     bottom: 0;
     left: 0;
     width: 5px;
- }
-
- #footer {  
-    padding-bottom: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer img {
-    padding-right: 12px;
-}
-
-footer p {
-    font-size: 1rem;
-    clear: both;
 }

@@ -2,14 +2,14 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    right: 1em;
-    top: 15vh;
+    right: 1.8em;
+    top: 2.1em;
 }
 
 .container {
     overflow: auto;
     text-align: center;
-    padding: .1vh;
+    padding: 3px;
     margin-bottom: 3vh;
 }
 
@@ -25,6 +25,7 @@
     width: 6.9vh;
     height: 6.9vh;
     border: none;
+    padding: 0;
 }
 
 #links img:hover {

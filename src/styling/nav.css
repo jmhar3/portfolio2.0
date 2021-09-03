@@ -1,41 +1,53 @@
-header {
+#menu {
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: 100%;
     box-sizing: border-box;
-    border-bottom: 5px solid #cf0311;
-    padding: 12px;
+    border-top: 5px solid #cf0311;
+    padding-left: 45px;
+    padding: 15px;
+    padding-bottom: 18px;
     background: #f8bbd0;
-    padding-left: 21px;
+    height: 60px;
+    justify-content: space-between;
 }
 
-#menu {
+#menu, #menu ul {
     display: flex;
     margin-top: 3px;
     margin-bottom: 0;   
-    padding-left: 0;
-    margin-left: 0;
-}
-
-#menu img {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-}
-
-#menu a {
-    padding-left: 15px;
-  }
-
-  #menu img {
-    border: 2px dotted transparent;
-}
-
-#menu img:hover {
-    border: 2px dotted #1975d2;
+    align-content: center;
+    gap: 24px;
+    padding-left: 30px;
 }
 
 #menu a:hover {
     color: #ffebee;
+}
+
+#menu li a {
+    border-bottom: 2px dotted transparent;
+}
+
+#menu li a:hover {
     border-bottom: 2px dotted #1975d2;
+}
+
+#footer {
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    padding-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+footer p {
+    font-size: 1rem;
+    clear: both;
+    margin: 0;
 }

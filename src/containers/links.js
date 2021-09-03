@@ -18,7 +18,7 @@ const Links = () => {
                     <img src={notebook} />
                 </a>
                 <a href="https://medium.com/@jmhar" target="_blank">
-                    <p class="hover_icon">My Blog</p>
+                    <p class="hover_icon">Blog</p>
                 </a>
             </div>
             <div class="container">

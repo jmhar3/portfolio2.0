@@ -24,7 +24,6 @@ h3 {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
     font-weight: normal;
     font-size: 1.3rem;
-    padding-bottom: .8em;
 }
 
 h4, input, textarea, ::placeholder {
@@ -34,13 +33,13 @@ h4, input, textarea, ::placeholder {
     color: #cf0311;
 }
 
-h5, button {
+h5, button, a {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1.2rem;
 }
 
-p, li, a {
+p, li {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1rem;
@@ -56,7 +55,18 @@ p, li, a {
 
 #menu a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    color: #cf0311;
-    text-decoration: none;
     font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #cf0311;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    margin: 0;
 }

@@ -1,8 +1,9 @@
-#email h4 {
+#email a {
     border-bottom: 2px dotted transparent;
+    margin-bottom: 18px;
 }
 
-#email h4:hover {
+#email a:hover {
     border-bottom: 2px dotted #1975d2;
 }
 
@@ -11,6 +12,7 @@ input, textarea {
     padding: .3em;
     border: 3px solid #cf0311;
     color: #1975d2;
+    margin-bottom: 18px;
 }
 
  input:hover, textarea:hover {
@@ -41,7 +43,7 @@ button#submit:hover {
 }
 
 #contact h3 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 #email {
@@ -54,8 +56,4 @@ button#submit:hover {
 #email a {
     float: left;
     text-decoration: none;
-}
-
-.contact_form {
-    padding-bottom: 1em;
 }

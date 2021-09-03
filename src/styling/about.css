@@ -6,7 +6,7 @@
 
 #work a img {
     margin-top: 18px;
-    width: 45%;
+    width: 100%;
     border: solid 3px #f8bbd0;
 }
 
@@ -15,7 +15,7 @@
 }
 
 #name h1 {
-    margin-bottom: 0;
+    margin-top: .9vw;
 }  
 
 #name div h3 {
@@ -29,7 +29,6 @@
 
 #about h3 {
     margin: 0;
-    padding-bottom: 1.5em;
 }
 
 main img {
@@ -48,14 +47,24 @@ main img {
     margin: 0;
 }
 
-#tech { 
+#tech-head { 
     margin: 0;
     padding: 0;
     padding-top: .3em;
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+#tech-body {
+    display: flex;
+    gap: 90px;
 }
 
 #work p {
     margin-bottom: 0;
+}
+
+.work {
+    padding: 0;
 }
