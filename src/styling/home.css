@@ -1,70 +1,59 @@
-#about ul li:before {
-    content: "\2665";
-    color: #cf0311;
-    padding-right: .4rem;
-}
-
-#work a img {
-    margin-top: 18px;
-    width: 100%;
-    border: solid 3px #f8bbd0;
-}
-
-#work a img:hover {
-    border: dotted 3px #90caf9;
-}
-
-#name h1 {
-    margin-top: .9vw;
-}  
-
-#name div h3 {
-    margin: 0;
-}
-
-#name h4 {
-    margin-top: 0;
-    margin-bottom: .6em;
-}
-
-#about h3 {
-    margin: 0;
-}
-
-main img {
-    margin-right: .9em;
-    width: 24px;
-}
-
-#location { 
-    margin: 0;
-    padding: 0;
+#about {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
-#location h4 {
-    margin: 0;
+#about .container {
+    padding: 3.9vw;
+    padding-right: 6vw;
+    background-color: var(--light);
+    border: 2px solid var(--bold);
+    width: 39%;
 }
 
-#tech-head { 
-    margin: 0;
-    padding: 0;
-    padding-top: .3em;
+#about h1 {
+    color: var(--main);
+    font-weight: 550;
+    font-size: 2.4vw;
+}
+
+#about h2 {
+    font-size: 1.5vw;
+}
+
+#about p, #about h1, #location {
+    padding-top: .9vw;
+    padding-bottom: .9vw;
+}
+
+#location {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 100%;
 }
 
-#tech-body {
-    display: flex;
-    gap: 90px;
+.about {
+    color: var(--main);
 }
 
-#work p {
-    margin-bottom: 0;
+.tech {
+    text-align: center;
 }
 
-.work {
-    padding: 0;
+.image-container {
+    height: 100%;
+}
+
+#sticker {
+    height: 18%;
+    z-index: 999;
+    position: absolute;
+}
+
+#main-image {
+    width: 24vw;
+    position: relative;
+    right: 30px;
 }

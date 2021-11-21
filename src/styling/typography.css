@@ -30,24 +30,24 @@ h4, input, textarea, ::placeholder {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
     font-size: 1.2rem;
-    color: #cf0311;
+    color: var(--bold);
 }
 
 h5, button, a {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
 }
 
 p, li {
     font-family: 'MS_Sans_Serif_8pt', sans-serif;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 
 #links a {
     font-family: 'MS_Sans_Serif_8pt_bold', sans-serif;
-    color: #cf0311;
+    color: var(--bold);
     text-decoration: none;
     font-size: 1rem;
     padding: 0;
@@ -60,13 +60,10 @@ nav a {
 
 a {
     text-decoration: none;
-    color: #cf0311;
+    color: var(--bold);
 }
 
-li {
-    list-style-type: none;
-}
-
-h3 {
+h1, h2, h3, h4, h5, p {
     margin: 0;
+    text-align: left;
 }
