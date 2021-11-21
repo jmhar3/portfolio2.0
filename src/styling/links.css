@@ -2,8 +2,8 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    right: 3vw;
-    top: 90px;
+    right: 1.8vw;
+    top: 69px;
 }
 
 .container {
@@ -18,7 +18,7 @@
 }
 
 .container:hover {
-    border: 2px dotted #1975d2;   
+    border: 2px dotted var(--main);   
 }
 
 #links img {

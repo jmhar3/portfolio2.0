@@ -29,7 +29,3 @@
     padding-top: .9vw;
     padding-bottom: .9vw;
 }
-
-#work h4:hover {
-    color: var(--bold);
-}

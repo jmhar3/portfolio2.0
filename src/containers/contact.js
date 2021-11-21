@@ -7,7 +7,7 @@ const Contact = () => {
             </div>
             <span className="contact-info row">
                 <h4>0499833390</h4>
-                <a href="mailto:jmhar@protonmail.com">
+                •<a href="mailto:jmhar@protonmail.com">
                 jmhar @protonmail.com
                 </a>
             </span>

@@ -35,6 +35,6 @@ nav {
 }
 
 .contact-button:hover {
-    color: var(--bold);
-    border: 2px solid var(--bold);
+    color: var(--mid);
+    background-color: var(--main);
 }

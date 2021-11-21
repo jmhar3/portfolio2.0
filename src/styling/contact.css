@@ -9,7 +9,7 @@
 .contact-title {
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.5vw;
+    padding-top: 3vw;
     padding-bottom: 1.5vw;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .contact-info {
-    gap: 3vw;
+    gap: 1.2vw;
     padding-bottom: 1.5vw;
 }
 
@@ -28,8 +28,8 @@
 }
 
 input, textarea {
-    width: 100%;
-    padding: .3em;
+    width: 98%;
+    padding: .6vw;
     border: 3px solid var(--bold);
     color: var(--main);
     margin-bottom: 18px;
@@ -37,19 +37,19 @@ input, textarea {
 
  input:hover, textarea:hover {
     cursor: url('../images/text_cursor.png'), auto;
-    border: 3px solid #ff80aa;
+    border: 3px dotted var(--main);
 }
 
 input:focus, textarea:focus {
     outline: none;
     border: 3px solid var(--main);
-    color: var(--bold);
+    color: var(--main);
 }
 
 button#submit { 
     width: 18%;
-    border: 3px solid var(--bold);
-    color: var(--bold);
+    border: 3px solid var(--main);
+    color: var(--main);
     background: var(--light);
     padding: .6vw;
 }
@@ -58,6 +58,6 @@ button#submit:hover {
     border: 3px solid var(--main);
     color: var(--light);
     background: var(--main);
-    padding: .3em;    
-    cursor: url('../images/text_cursor.png'), auto;
+    padding: .6vw;
+    cursor: url('../images/hover\ cursor.png'), auto;
 }
