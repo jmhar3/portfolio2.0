@@ -4,9 +4,11 @@ import WorkLinks from './containers/work_links';
 import Nav from './containers/nav';
 import Footer from './containers/footer';
 import Home from './containers/home';
+import Work from './containers/work';
+import Contact from './containers/contact';
 import './App.css';
 import './styling/typography.css';
-import './styling/about.css';
+import './styling/home.css';
 import './styling/contact.css';
 import './styling/general.css';
 import './styling/links.css';
@@ -20,7 +22,9 @@ function App() {
     <Router>
         <Links />
         <Nav />
-        <Route exact path="/" component={Home} />
+        <Home />
+        <Work />
+        <Contact />
         <WorkLinks />
         <Footer />
     </Router>
