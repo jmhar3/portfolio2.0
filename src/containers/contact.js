@@ -1,20 +1,18 @@
-import email from '../images/email.png'
-
 const Contact = () => {
     return (
-        <section id="contact" className="window">
-            <div className="window-header">
-                <img src={email} />
-                <h3 className="window-title">Get In Touch</h3>
+        <section id="contact">
+            <div className="row contact-title">
+                <h3>Get In Touch</h3>
+                <div className="strip contact-strip"></div>
             </div>
-            <div className="window-body">
-                <span id="email" class="contact_email">
+            <span className="contact-info row">
+                <h4>0499833390</h4>
                 <a href="mailto:jmhar@protonmail.com">
                 jmhar @protonmail.com
                 </a>
-                </span>
+            </span>
 
-                <form id="contact_form" action="https://formkeep.com/f/8395fde77958"
+            <form id="contact_form" action="https://formkeep.com/f/8395fde77958"
                 accept-charset="UTF-8"
                 enctype="multipart/form-data"
                 method="POST">
@@ -22,8 +20,7 @@ const Contact = () => {
                 <input type ="email" id="Email" placeholder="Email" required />
                 <textarea id="Message" placeholder="Message" rows="6" maxlength="3000" required />
                 <button type ="submit" id="submit">Send Message</button>
-                </form>
-            </div>
+            </form>
         </section>
     )
 }

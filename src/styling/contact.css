@@ -1,17 +1,37 @@
-#email a {
-    border-bottom: 2px dotted transparent;
-    margin-bottom: 18px;
+#contact {
+
 }
 
-#email a:hover {
-    border-bottom: 2px dotted #1975d2;
+#contact h3 {
+    font-size: 2.1vw;
+}
+
+.contact-title {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.contact-strip {
+    width: 82%;
+    height: 2px;
+}
+
+.contact-info {
+    gap: 3vw;
+    padding-bottom: 1.5vw;
+}
+
+.contact-info h4, .contact-info a {
+    color: var(--main);
 }
 
 input, textarea {
-    width: 90%;
+    width: 100%;
     padding: .3em;
-    border: 3px solid #cf0311;
-    color: #1975d2;
+    border: 3px solid var(--bold);
+    color: var(--main);
     margin-bottom: 18px;
 }
 
@@ -22,38 +42,22 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border: 3px solid #1975d2;
-    color: #cf0311;
+    border: 3px solid var(--main);
+    color: var(--bold);
 }
 
 button#submit { 
-    width: 30%;
-    border: 3px solid #cf0311;
-    color: #cf0311;
-    background: #ffebee;
-    padding: .3em;
+    width: 18%;
+    border: 3px solid var(--bold);
+    color: var(--bold);
+    background: var(--light);
+    padding: .6vw;
 }
 
 button#submit:hover {  
-    border: 3px solid #1975d2;
-    color: #e3f2fd;
-    background: #1975d2;
+    border: 3px solid var(--main);
+    color: var(--light);
+    background: var(--main);
     padding: .3em;    
     cursor: url('../images/text_cursor.png'), auto;
-}
-
-#contact h3 {
-    margin: 0;
-}
-
-#email {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
-#email a {
-    float: left;
-    text-decoration: none;
 }
