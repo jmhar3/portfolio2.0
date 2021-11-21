@@ -1,0 +1,35 @@
+#work {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8vw;
+}
+
+.work-container {
+    border: 2px solid var(--main);
+    width: 30vw;
+    height: fit-content;
+    padding: 1vw;
+    background: var(--light);
+}
+
+.work-container:hover {
+    border: 2px dotted var(--main);
+}
+
+#work img {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+#work h4 {
+    color: var(--main);
+    font-weight: 600;
+    font-size: 1.8vw;
+    padding-top: .9vw;
+    padding-bottom: .9vw;
+}
+
+#work h4:hover {
+    color: var(--bold);
+}

@@ -11,3 +11,12 @@
     bottom: 0;
     background: var(--light);
 }
+
+#work-links:hover { 
+    border-top: 2px dotted var(--main);
+    border-bottom: 2px dotted var(--main);
+}
+
+#work-links a:hover {
+    color: var(--main);
+}
