@@ -50,3 +50,13 @@ img {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--bold); 
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

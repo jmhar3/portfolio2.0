@@ -6,11 +6,11 @@
 }
 
 #about .container {
-    padding: 3.9vw;
-    padding-right: 6vw;
+    padding: 3vw;
+    padding-right: 4.5vw;
     background-color: var(--light);
     border: 2px solid var(--bold);
-    width: 39%;
+    width: 45%;
 }
 
 #about h1 {
@@ -40,6 +40,30 @@
 
 .tech {
     text-align: center;
+}
+
+.strip {
+    background-color: var(--bold);
+}
+
+.about-top {
+    width: 30vw;
+    height: 2px;
+    margin-bottom: 1vw;
+}
+
+.about-left {
+    width: 2px;
+    height: 30vw;
+    margin-right: 1vw;
+    position: relative;
+    bottom: 1vw;
+}
+
+.about-bottom {
+    width: 27vw;
+    height: 2px;
+    margin-left: 9vw;
 }
 
 .image-container {
