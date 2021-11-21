@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import '../styling/nav.css';
-import heart from '../images/heart.png'
 
 const Nav = () => {
     return (

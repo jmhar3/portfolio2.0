@@ -24,6 +24,14 @@ function App() {
         <Nav />
         <main>
           <Home />
+          <Route path="/pokedex"
+            render={() => window.location = "https://github.com/jmhar3/pokedex"} />
+          <Route path="/glasshouse"
+            render={() => window.location = "https://github.com/jmhar3/glasshouse"} />
+          <Route path="/apocalypto"
+            render={() => window.location = "https://github.com/jmhar3/apocalypto"} />
+            <Route path="/dreamjournal"
+              render={() => window.location = "https://github.com/jmhar3/dream_journal"} />
           <Work />
           <Contact />
         </main>
