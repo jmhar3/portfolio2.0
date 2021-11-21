@@ -1,0 +1,6 @@
+#work-links {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+}
