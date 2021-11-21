@@ -22,9 +22,11 @@ function App() {
     <Router>
         <Links />
         <Nav />
-        <Home />
-        <Work />
-        <Contact />
+        <main>
+          <Home />
+          <Work />
+          <Contact />
+        </main>
         <WorkLinks />
         <Footer />
     </Router>

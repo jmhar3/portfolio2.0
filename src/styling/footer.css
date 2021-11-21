@@ -1,5 +1,6 @@
 footer {
-    padding-right: 30px;
+    padding: 30px;
+    padding-bottom: 9px;
     display: flex;
     justify-content: center;
     align-items: center;

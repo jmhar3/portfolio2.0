@@ -1,38 +1,38 @@
 
 @media (prefers-color-scheme: light) {
     body {
-        background: #ffebee;
-        color: #cf0311;
+        background: var(--mid);
+        color: var(--bold);
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(27, 27, 27);
-        color: #f8bbd0;
+        color: var(--mid);
     }
     
     h4, input, textarea, p, ::placeholder {
-        color: #f8bbd0;
+        color: var(--mid);
     }
     header {
-        border-bottom: 3px solid #f8bbd0;
-        background: #f8bbd0;
+        border-bottom: 3px solid var(--mid);
+        background: var(--mid);
     }
-    #menu a {
-        color: #cf0311;
+    nav a {
+        color: var(--bold);
     }
-    #menu a:hover, #email h4:hover{
+    nav a:hover, #email h4:hover{
         border-bottom: 2px dotted #90caf9;
     }
     #email h4, img, .container, a img, .container, #email, #contact h4{
         border: 2px dotted transparent;
     }   
-    #menu img:hover, .container:hover, a img:hover {
+    nav img:hover, .container:hover, a img:hover {
         border: 2px dotted #90caf9;
     }
     input, textarea {
-        border: 3px solid #f8bbd0;
+        border: 3px solid var(--mid);
         color: #ffebee;
         background: rgb(27, 27, 27);
     }
@@ -40,8 +40,8 @@
         border-color: #90caf9;
     }
     button#submit { 
-        border: 3px solid #f8bbd0;
-        color: #f8bbd0;
+        border: 3px solid var(--mid);
+        color: var(--mid);
         background: rgb(27, 27, 27);
     }
     button#submit:hover {  
@@ -50,7 +50,7 @@
         background: #90caf9;
     }
     .websiteFrame {
-        background-color: #f8bbd0;
+        background-color: var(--mid);
     }
 }
 
@@ -75,7 +75,7 @@
     #links p {
         font-size: .8em;
     }
-    #menu ul {
+    nav ul {
         margin: 0; 
     }
     header {

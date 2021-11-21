@@ -23,8 +23,8 @@ body {
 }
 
 main {
-    padding: 3.5em;
-    padding-left: 10%;
+    padding-left: 3.9vw;
+    padding-right: 9vw;
 }
 
 ul {
@@ -40,7 +40,7 @@ img {
 }
   
 ::-webkit-scrollbar-track {
-    background: var(--light); 
+    background: var(--mid); 
 }
    
 ::-webkit-scrollbar-thumb {
