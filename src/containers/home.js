@@ -1,5 +1,5 @@
 import globe from '../images/globe.png';
-import mainImage from '../images/retro.png';
+import mainImage from '../images/programmer.png';
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
 
       <p className="about">Welcome to my portfolio. I'm a Software Developer and UI designer currently working at HealthAide. When I'm not hard at work I'm cuddling with my dog, playing video games or (more often than not) a bit of both. In my off time I enjoy building and creating in many ways, from Lego and puzzles to coding my own fun little projects.</p>
 
-      <p className="tech">HTML   •   CSS    •   JavaScript   •   React   •   Redux   •   Ruby   •   Rails   •   Firebase   •   GitHub   •   Chrome DevTools</p>
+      <p className="tech">JS   •   React   •   Ruby   •   Rails   •   Node   •   Express   •   Next</p>
      </div>
     </div>
     <div className="strip about-bottom"></div>

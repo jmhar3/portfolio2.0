@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3vw;
+    margin-left: 3.3vw;
 }
 
 #about .about-info {
@@ -16,7 +17,7 @@
 }
 
 .about-container {
-    width: 50%;
+    width: 52.5%;
 }
 
 #about .row {
@@ -89,7 +90,7 @@
 }
 
 #main-image {
-    width: 24vw;
+    width: 27vw;
     position: relative;
-    right: 30px;
+    right: 3.3vw;
 }

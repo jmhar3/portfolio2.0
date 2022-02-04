@@ -6,7 +6,7 @@ const WorkLinks = () => {
 
  return (
   <container id="work-links">
-   <Marquee gradient={false}>
+   <Marquee gradient={false} pauseOnHover={true}>
     <Link to="/pokedex">Pokedex</Link>
     <Link to="/glasshouse">Glasshouse</Link>
     <Link to="/apocalypto">Apocalypto</Link>
