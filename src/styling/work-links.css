@@ -1,22 +1,23 @@
 #work-links {
-    border-top: 2px solid var(--bold);
-    border-bottom: 2px solid var(--bold);
-    width: 100%;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    gap: 3vw;
-    padding-top: .9vw;
-    padding-bottom: .6vw;
-    bottom: 0;
-    background: var(--light);
+ border-top: 2px solid var(--bold);
+ border-bottom: 2px solid var(--bold);
+ width: 100%;
+ padding-top: .9vw;
+ padding-bottom: .6vw;
+ position: fixed;
+ bottom: 0;
+ background: var(--light);
 }
 
 #work-links:hover { 
-    border-top: 2px dotted var(--main);
-    border-bottom: 2px dotted var(--main);
+ border-top: 2px dotted var(--main);
+ border-bottom: 2px dotted var(--main);
 }
 
 #work-links a:hover {
-    color: var(--main);
+ color: var(--main);
+}
+
+#work-links a {
+ padding: 0 1.5em;
 }
