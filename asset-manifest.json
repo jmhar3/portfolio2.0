@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10bc19b9.chunk.css",
+    "main.js": "/static/js/main.ece772dd.chunk.js",
+    "main.js.map": "/static/js/main.ece772dd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d95d567d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d95d567d.js.map",
+    "static/js/2.73d68aaf.chunk.js": "/static/js/2.73d68aaf.chunk.js",
+    "static/js/2.73d68aaf.chunk.js.map": "/static/js/2.73d68aaf.chunk.js.map",
+    "static/js/3.764d7c19.chunk.js": "/static/js/3.764d7c19.chunk.js",
+    "static/js/3.764d7c19.chunk.js.map": "/static/js/3.764d7c19.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.10bc19b9.chunk.css.map": "/static/css/main.10bc19b9.chunk.css.map",
+    "static/js/2.73d68aaf.chunk.js.LICENSE.txt": "/static/js/2.73d68aaf.chunk.js.LICENSE.txt",
+    "static/media/apocalypto.24bbf3d3.jpg": "/static/media/apocalypto.24bbf3d3.jpg",
+    "static/media/dreamJournal.017fd7ee.jpg": "/static/media/dreamJournal.017fd7ee.jpg",
+    "static/media/glasshouse.59479878.jpg": "/static/media/glasshouse.59479878.jpg",
+    "static/media/typography.css": "/static/media/ms_sans_serif_8pt_bold-webfont.4e37be9f.woff",
+    "static/media/programmer.99a3495d.png": "/static/media/programmer.99a3495d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d95d567d.js",
+    "static/js/2.73d68aaf.chunk.js",
+    "static/css/main.10bc19b9.chunk.css",
+    "static/js/main.ece772dd.chunk.js"
+  ]
+}
