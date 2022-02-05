@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.10bc19b9.chunk.css",
-    "main.js": "/static/js/main.ece772dd.chunk.js",
-    "main.js.map": "/static/js/main.ece772dd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d95d567d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d95d567d.js.map",
-    "static/js/2.73d68aaf.chunk.js": "/static/js/2.73d68aaf.chunk.js",
-    "static/js/2.73d68aaf.chunk.js.map": "/static/js/2.73d68aaf.chunk.js.map",
-    "static/js/3.764d7c19.chunk.js": "/static/js/3.764d7c19.chunk.js",
-    "static/js/3.764d7c19.chunk.js.map": "/static/js/3.764d7c19.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.10bc19b9.chunk.css.map": "/static/css/main.10bc19b9.chunk.css.map",
-    "static/js/2.73d68aaf.chunk.js.LICENSE.txt": "/static/js/2.73d68aaf.chunk.js.LICENSE.txt",
-    "static/media/apocalypto.24bbf3d3.jpg": "/static/media/apocalypto.24bbf3d3.jpg",
-    "static/media/dreamJournal.017fd7ee.jpg": "/static/media/dreamJournal.017fd7ee.jpg",
-    "static/media/glasshouse.59479878.jpg": "/static/media/glasshouse.59479878.jpg",
-    "static/media/typography.css": "/static/media/ms_sans_serif_8pt_bold-webfont.4e37be9f.woff",
-    "static/media/programmer.99a3495d.png": "/static/media/programmer.99a3495d.png"
+    "main.css": "/portfolio2.0/static/css/main.b6039540.chunk.css",
+    "main.js": "/portfolio2.0/static/js/main.ece772dd.chunk.js",
+    "main.js.map": "/portfolio2.0/static/js/main.ece772dd.chunk.js.map",
+    "runtime-main.js": "/portfolio2.0/static/js/runtime-main.07e6b604.js",
+    "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.07e6b604.js.map",
+    "static/js/2.73d68aaf.chunk.js": "/portfolio2.0/static/js/2.73d68aaf.chunk.js",
+    "static/js/2.73d68aaf.chunk.js.map": "/portfolio2.0/static/js/2.73d68aaf.chunk.js.map",
+    "static/js/3.764d7c19.chunk.js": "/portfolio2.0/static/js/3.764d7c19.chunk.js",
+    "static/js/3.764d7c19.chunk.js.map": "/portfolio2.0/static/js/3.764d7c19.chunk.js.map",
+    "index.html": "/portfolio2.0/index.html",
+    "static/css/main.b6039540.chunk.css.map": "/portfolio2.0/static/css/main.b6039540.chunk.css.map",
+    "static/js/2.73d68aaf.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.73d68aaf.chunk.js.LICENSE.txt",
+    "static/media/apocalypto.24bbf3d3.jpg": "/portfolio2.0/static/media/apocalypto.24bbf3d3.jpg",
+    "static/media/dreamJournal.017fd7ee.jpg": "/portfolio2.0/static/media/dreamJournal.017fd7ee.jpg",
+    "static/media/glasshouse.59479878.jpg": "/portfolio2.0/static/media/glasshouse.59479878.jpg",
+    "static/media/typography.css": "/portfolio2.0/static/media/ms_sans_serif_8pt_bold-webfont.4e37be9f.woff",
+    "static/media/programmer.99a3495d.png": "/portfolio2.0/static/media/programmer.99a3495d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d95d567d.js",
+    "static/js/runtime-main.07e6b604.js",
     "static/js/2.73d68aaf.chunk.js",
-    "static/css/main.10bc19b9.chunk.css",
+    "static/css/main.b6039540.chunk.css",
     "static/js/main.ece772dd.chunk.js"
   ]
 }
