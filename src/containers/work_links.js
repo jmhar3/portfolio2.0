@@ -10,19 +10,19 @@ const WorkLinks = () => {
     <Link to="/pokedex">Pokedex</Link>
     <Link to="/glasshouse">Glasshouse</Link>
     <Link to="/apocalypto">Apocalypto</Link>
-    <Link to="/dreamjournal">DreamJournal</Link>
+    <Link to="/dreamJournal">DreamJournal</Link>
     <Link to="/pokedex">Pokedex</Link>
     <Link to="/glasshouse">Glasshouse</Link>
     <Link to="/apocalypto">Apocalypto</Link>
-    <Link to="/dreamjournal">DreamJournal</Link>
+    <Link to="/dreamJournal">DreamJournal</Link>
     <Link to="/pokedex">Pokedex</Link>
     <Link to="/glasshouse">Glasshouse</Link>
     <Link to="/apocalypto">Apocalypto</Link>
-    <Link to="/dreamjournal">DreamJournal</Link>
+    <Link to="/dreamJournal">DreamJournal</Link>
     <Link to="/pokedex">Pokedex</Link>
     <Link to="/glasshouse">Glasshouse</Link>
     <Link to="/apocalypto">Apocalypto</Link>
-    <Link to="/dreamjournal">DreamJournal</Link>
+    <Link to="/dreamJournal">DreamJournal</Link>
    </Marquee>
   </container>
  )

@@ -18,27 +18,27 @@ import './styling/compatibility.css';
 import './styling/footer.css';
 
 function App() {
-  return (
-    <Router>
-        <Links />
-        <Nav />
-        <main>
-          <Home />
-          <Route path="/dreamJournal"
-            render={() => window.location = "https://github.com/jmhar3/DreamJournal_app/tree/master"} />
-          <Route path="/glasshouse"
-            render={() => window.location = "https://github.com/jmhar3/glasshouse"} />
-          <Route path="/apocalypto"
-            render={() => window.location = "https://github.com/jmhar3/apocalypto"} />
-            <Route path="/dreamjournal"
-              render={() => window.location = "https://github.com/jmhar3/dream_journal"} />
-          <Work />
-          <Contact />
-        </main>
-        <WorkLinks />
-        <Footer />
-    </Router>
-  );
+ return (
+  <Router>
+   <Links />
+   <Nav />
+   <main>
+    <Home />
+    <Route path="/dreamJournal"
+     render={() => window.location = "https://github.com/jmhar3/DreamJournal_app/tree/master"} />
+    <Route path="/glasshouse"
+     render={() => window.location = "https://github.com/jmhar3/glasshouse"} />
+    <Route path="/apocalypto"
+     render={() => window.location = "https://github.com/jmhar3/apocalypto"} />
+    <Route path="/pokedex"
+     render={() => window.location = "https://github.com/jmhar3/pokedex"} />
+    <Work />
+    <Contact />
+   </main>
+   <WorkLinks />
+   <Footer />
+  </Router>
+ );
 }
 
 export default App;
