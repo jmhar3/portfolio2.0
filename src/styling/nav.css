@@ -1,40 +1,45 @@
 nav {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    width: 100%;
-    padding: 6.9px;
-    margin: none;
-    background: var(--light);
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+ position: fixed;
+ z-index: 999;
+ top: 0;
+ width: 100%;
+ padding: 6.9px;
+ margin: none;
+ background: var(--light);
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+}
+
+nav button {
+ border: 0;
+ background: var(--light);
 }
 
 .home-button {
-    margin-left: 1.5vw;
-    padding: 9px;
-    margin: none;
-    color: var(--main);
-    font-size: 24px;
+ margin-left: 1.5vw;
+ padding: 9px;
+ margin: none;
+ color: var(--main);
+ font-size: 24px;
 }
 
 .home-button:hover {
-    color: var(--bold);
+ color: var(--bold);
 }
 
 .contact-button {
-    display: flex;
-    align-items: center;
-    margin-right: 3.9vw;
-    padding: 9px;
-    height: fit-content;
-    border: 2px solid var(--main);
-    background-color: var(--mid);
-    color: var(--main);
+ display: flex;
+ align-items: center;
+ margin-right: 3.9vw;
+ padding: 9px;
+ height: fit-content;
+ border: 2px solid var(--main);
+ background-color: var(--mid);
+ color: var(--main);
 }
 
 .contact-button:hover {
-    color: var(--mid);
-    background-color: var(--main);
+ color: var(--mid);
+ background-color: var(--main);
 }
