@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio2.0/static/css/main.257375ff.chunk.css",
-    "main.js": "/portfolio2.0/static/js/main.2c80a61d.chunk.js",
-    "main.js.map": "/portfolio2.0/static/js/main.2c80a61d.chunk.js.map",
-    "runtime-main.js": "/portfolio2.0/static/js/runtime-main.07e6b604.js",
-    "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.07e6b604.js.map",
-    "static/js/2.73d68aaf.chunk.js": "/portfolio2.0/static/js/2.73d68aaf.chunk.js",
-    "static/js/2.73d68aaf.chunk.js.map": "/portfolio2.0/static/js/2.73d68aaf.chunk.js.map",
-    "static/js/3.764d7c19.chunk.js": "/portfolio2.0/static/js/3.764d7c19.chunk.js",
-    "static/js/3.764d7c19.chunk.js.map": "/portfolio2.0/static/js/3.764d7c19.chunk.js.map",
+    "main.js": "/portfolio2.0/static/js/main.4bd7c7db.chunk.js",
+    "main.js.map": "/portfolio2.0/static/js/main.4bd7c7db.chunk.js.map",
+    "runtime-main.js": "/portfolio2.0/static/js/runtime-main.9a91cbbe.js",
+    "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.9a91cbbe.js.map",
+    "static/js/2.79615474.chunk.js": "/portfolio2.0/static/js/2.79615474.chunk.js",
+    "static/js/2.79615474.chunk.js.map": "/portfolio2.0/static/js/2.79615474.chunk.js.map",
+    "static/js/3.9bb27593.chunk.js": "/portfolio2.0/static/js/3.9bb27593.chunk.js",
+    "static/js/3.9bb27593.chunk.js.map": "/portfolio2.0/static/js/3.9bb27593.chunk.js.map",
     "index.html": "/portfolio2.0/index.html",
     "static/css/main.257375ff.chunk.css.map": "/portfolio2.0/static/css/main.257375ff.chunk.css.map",
-    "static/js/2.73d68aaf.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.73d68aaf.chunk.js.LICENSE.txt",
+    "static/js/2.79615474.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.79615474.chunk.js.LICENSE.txt",
     "static/media/apocalypto.24bbf3d3.jpg": "/portfolio2.0/static/media/apocalypto.24bbf3d3.jpg",
     "static/media/dreamJournal.017fd7ee.jpg": "/portfolio2.0/static/media/dreamJournal.017fd7ee.jpg",
     "static/media/glasshouse.59479878.jpg": "/portfolio2.0/static/media/glasshouse.59479878.jpg",
@@ -19,9 +19,9 @@
     "static/media/programmer.99a3495d.png": "/portfolio2.0/static/media/programmer.99a3495d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.07e6b604.js",
-    "static/js/2.73d68aaf.chunk.js",
+    "static/js/runtime-main.9a91cbbe.js",
+    "static/js/2.79615474.chunk.js",
     "static/css/main.257375ff.chunk.css",
-    "static/js/main.2c80a61d.chunk.js"
+    "static/js/main.4bd7c7db.chunk.js"
   ]
 }
